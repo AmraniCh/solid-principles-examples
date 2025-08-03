@@ -1,6 +1,9 @@
 """
 High-level classes shouldn’t depend on low-level classes. 
 Both should depend on abstractions. Abstractions shouldn’t depend on details. Details should depend on abstractions
+
+BEFORE: a high-level class depends on a low-level class.
+AFTER: low-level classes depend on a high-level abstraction.
 """
 
 import logging
